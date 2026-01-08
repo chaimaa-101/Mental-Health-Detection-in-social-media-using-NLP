@@ -26,9 +26,7 @@ Il ne constitue en aucun cas un outil de diagnostic médical.
 ## Problématique abordée
 
 La santé mentale regroupe des états variés, souvent exprimés de manière implicite dans le langage naturel.
-L’objectif est d’identifier automatiquement ces états à partir de textes courts, bruités et subjectifs, ce qui représente un défi majeur en NLP.
-
-Le problème est formulé comme une tâche de classification multi-classes à 14 catégories.
+L’objectif est d’identifier automatiquement ces états à partir de textes courts, bruités et subjectifs, ce qui représente un défi majeur en NLP. Le problème est formulé comme une tâche de classification multi-classes à 14 catégories.
 
 ## États de santé mentale étudiés
 
@@ -121,6 +119,7 @@ Les modèles ont été évalués à l’aide de métriques adaptées aux jeux de
 * Comment réduire efficacement les confusions entre états de santé mentale proches (ex. anxiety vs stress, depression vs suicidal) alors que leurs expressions linguistiques se recouvrent fortement sur les réseaux sociaux ?
 * Faut-il privilégier des approches hiérarchiques, multi-labels ou contextuelles pour mieux capturer cette complexité sémantique ?
 * Dans quelle mesure l’intégration de données temporelles, d’annotations expertes ou de modèles spécialisés pourrait-elle améliorer la distinction entre ces classes ?
+
 Ces questions ouvrent la voie à des travaux futurs et à des collaborations interdisciplinaires entre NLP, psychologie et sciences sociales.
 
 ## Reproduction des résultats 
