@@ -1,4 +1,4 @@
-# Détection de la Santé Mentale à partir des Réseaux Sociaux-NLP
+# Détection de la Santé Mentale à partir des Réseaux Sociaux en utilisant NLP
 
 Ce projet académique vise à exploiter les techniques de **Traitement Automatique du Langage Naturel (NLP)** afin de détecter automatiquement différents états de santé mentale à partir de publications issues des réseaux sociaux.
 
@@ -23,6 +23,13 @@ Il ne constitue en aucun cas un outil de diagnostic médical.
 
 ---
 
+## Problématique abordée
+
+La santé mentale regroupe des états variés, souvent exprimés de manière implicite dans le langage naturel.
+L’objectif est d’identifier automatiquement ces états à partir de textes courts, bruités et subjectifs, ce qui représente un défi majeur en NLP.
+
+Le problème est formulé comme une tâche de classification multi-classes à 14 catégories.
+
 ## États de santé mentale étudiés
 
 Le problème est formulé comme une tâche de **classification multi-classes** couvrant 14 états :
@@ -43,6 +50,24 @@ Le problème est formulé comme une tâche de **classification multi-classes** c
 - Alcoholism  
 
 ---
+
+## Méthodologie générale
+
+La méthodologie suivie dans ce projet repose sur les étapes suivantes :
+
+* Collecte et préparation des données
+
+* Prétraitement linguistique des textes
+
+* Représentation vectorielle
+
+* Entraînement de modèles de classification
+
+* Évaluation sur des métriques adaptées
+
+* Comparaison des approches
+
+* Déploiement d’une interface interactive
 
 ## Modèles implémentés
 
@@ -90,6 +115,14 @@ Les modèles ont été évalués à l’aide de métriques adaptées aux jeux de
 - Le **F1-score Macro** confirme une meilleure prise en compte des classes minoritaires, ce qui est crucial en santé mentale  
 
 ---
+
+## Perspectives et améliorations futures
+
+* Comment réduire efficacement les confusions entre états de santé mentale proches (ex. anxiety vs stress, depression vs suicidal) alors que leurs expressions linguistiques se recouvrent fortement sur les réseaux sociaux ?
+* Faut-il privilégier des approches hiérarchiques, multi-labels ou contextuelles pour mieux capturer cette complexité sémantique ?
+* Dans quelle mesure l’intégration de données temporelles, d’annotations expertes ou de modèles spécialisés pourrait-elle améliorer la distinction entre ces classes ?
+Ces questions ouvrent la voie à des travaux futurs et à des collaborations interdisciplinaires entre NLP, psychologie et sciences sociales.
+
 ## Reproduction des résultats 
 
 Cette section décrit les étapes nécessaires pour reproduire les résultats expérimentaux présentés dans ce projet.
@@ -192,10 +225,5 @@ L’interface permet :
 
 ---
 
-## Contexte académique
 
-<p align="center">
-  <strong>Projet réalisé dans le cadre du module NLP / Intelligence Artificielle</strong><br>
-  ENSA Tétouan – Filière Big Data & Intelligence Artificielle
-</p>
 
