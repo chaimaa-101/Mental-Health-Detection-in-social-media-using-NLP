@@ -224,8 +224,6 @@ L’interface permet :
 
 ---
 
----
-
 <p align="center">
   <strong>Happy learning & coding ! 🚀🤖📚</strong>
 </p>
